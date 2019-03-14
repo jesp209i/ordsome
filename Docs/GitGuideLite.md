@@ -82,4 +82,5 @@ git commit -am 'commit besked'
 git push origin master
 ```
  
-
+# Yderligere læsning om git
+- https://git-scm.com/book/en/v2
