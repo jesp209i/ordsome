@@ -1,0 +1,3 @@
+[submodule "Ordsome.Services.RequestService"]
+	path = Ordsome.Services.RequestService
+	url = https://github.com/juli516b/Ordsome.Services.RequestService.git
