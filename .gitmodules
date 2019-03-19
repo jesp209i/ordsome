@@ -1,3 +1,6 @@
 [submodule "Ordsome.Services.RequestService"]
 	path = Ordsome.Services.RequestService
 	url = https://github.com/juli516b/Ordsome.Services.RequestService.git
+[submodule "Ordsome.ordsomegram-ktx"]
+	path = Ordsome.ordsomegram-ktx
+	url = https://github.com/jesp209i/Ordsome.ordsomegram-ktx.git
