@@ -4,3 +4,6 @@
 [submodule "Ordsome.ordsomegram-ktx"]
 	path = Ordsome.ordsomegram-ktx
 	url = https://github.com/jesp209i/Ordsome.ordsomegram-ktx.git
+[submodule "Ordsome.OrdsomeDrawer-ktx"]
+	path = Ordsome.OrdsomeDrawer-ktx
+	url = https://github.com/jesp209i/Ordsome.OrdsomeDrawer-ktx.git
