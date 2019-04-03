@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>20</y>
+      <w>260</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Question
+--
+QuestionUser
+LanguageOrigin
+LanguageTarget
+RequestedTextForTranslation
+Location
+Tags
+Urgency
+Answers : List of Answers
+AcceptedAnswer
+Active</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>690</x>
+      <y>20</y>
+      <w>260</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Answer
+--
+AnswerUser
+Question
+TranslatedText
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>350</y>
+      <w>260</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>OrdsomeUser
+--
+NativeTongue
+Languages
+UserName
+Password
+UserDescription
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>690</x>
+      <y>350</y>
+      <w>260</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>UserAnswerRating
+-.
+AnswerUser
+Answer
+Upvote eller whatever
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>260</y>
+      <w>50</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>260</y>
+      <w>30</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>110</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=*</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>430</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>260</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;50.0;170.0;50.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>970</x>
+      <y>350</y>
+      <w>140</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>
+Denne klasse skal 
+bearbejdes.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>90</x>
+      <y>20</y>
+      <w>190</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>
+AcceptedAnswer 
+og 
+Active
+angiver samme info.
+
+Hvis active er false så 
+er spørgsmålet åbent 
+længere
+
+AcceptedAnswer er det
+valgte og accepterede
+svar og spørgsmålet er ikke 
+åbent længere</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
