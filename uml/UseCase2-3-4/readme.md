@@ -8,4 +8,4 @@
 
 
 # Model
-![](https://github.com/jesp209i/ordsome/blob/UseCase2-3-4/uml/UseCase2-3-4/UseCase2-3-4.png)
+![](./UseCase2-3-4.png)
