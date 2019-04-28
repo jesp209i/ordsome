@@ -292,3 +292,23 @@
     <td colspan="2">"Les chevaux sont beaux"</td>
   </tr>
 </table>
+
+# requests uden id'er og uden svar
+```JSON
+[
+{"languageOrigin":"Tysk","languageTarget":"Dansk","textToTranslate":"Die Pferde sind hübsch"},
+{"languageOrigin":"Engelsk","languageTarget":"Dansk","textToTranslate":"Thanks for dinner"},
+{"languageOrigin":"Finsk","languageTarget":"Dansk","textToTranslate":"Yksi kaksi kolme"},
+{"languageOrigin":"Finsk","languageTarget":"dansk (Danmark)","textToTranslate":"Pumpulivanua"},
+{"languageOrigin":"Canadisk fransk","languageTarget":"Dansk","textToTranslate":"Arret"},
+{"languageOrigin":"Canadisk fransk","languageTarget":"Dansk","textToTranslate":"Poutine"},
+{"languageOrigin":"Engelsk","languageTarget":"Dansk","textToTranslate":"So long and thanks for all the fish"},
+{"languageOrigin":"Inuit","languageTarget":"Dansk","textToTranslate":"Iktsuarpok"},
+{"languageOrigin":"Tysk","languageTarget":"Dansk","textToTranslate":"Torschlusspanik"},
+{"languageOrigin":"Skottisk","languageTarget":"Dansk","textToTranslate":"Tartle"},
+{"languageOrigin":"Portugisisk","languageTarget":"Dansk","textToTranslate":"Saudade"},
+{"languageOrigin":"Fransk","languageTarget":"Dansk","textToTranslate":"Portez ce vieux whisky au juge blond qui fume"},
+{"languageOrigin":"Dansk","languageTarget":"English (United States)","textToTranslate":"Kælehøne"},
+{"languageOrigin":"Tysk","languageTarget":"Fransk","textToTranslate":"Die Pferde sind hübsch"}
+]
+```
