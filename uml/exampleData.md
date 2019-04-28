@@ -331,8 +331,8 @@ Hvis ovenstående indsættes i en frisk database fra toppen og ned, kan man gør
 {"requestId": 7, "textTranslated": "Farvel og tak for alle fiskene"},
 {"requestId": 8, "textTranslated": "når man går udenfor ofte for at undersøge om der kommer nogen"},
 {"requestId": 9, "textTranslated": "Frygten for at tiden er ved at rinde ud (så man ikke når et livsmål eller en mulighed)"},
-{"requestId": 10, "textTranslated": "Det akavede øjeblik hvor man et kort sekund har glemt navnet på den anden man snakker med/om},
-{"requestId": 11, "textTranslated":  	"En nostalgisk trang til at genopleve en oplevelse eller møde en person man kendte engang"},
+{"requestId": 10, "textTranslated": "Det akavede øjeblik hvor man et kort sekund har glemt navnet på den anden man snakker med/om"},
+{"requestId": 11, "textTranslated": "En nostalgisk trang til at genopleve en oplevelse eller møde en person man kendte engang"},
 {"requestId": 12, "textTranslated": "Bring denne gamle whisky til den blonde dommer som ryger"},
 {"requestId": 14, "textTranslated": "Les chevaux sont beaux"}
 ```
