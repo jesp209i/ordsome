@@ -312,3 +312,27 @@
 {"languageOrigin":"Tysk","languageTarget":"Fransk","textToTranslate":"Die Pferde sind hübsch"}
 ]
 ```
+
+## Answers
+Hvis ovenstående indsættes i en frisk database fra toppen og ned, kan man gøre det samme med nedenstående data
+```JSON
+{"requestId": 1, "textTranslated": "Hestene er pæne"},
+{"requestId": 1, "textTranslated": "Hestene er smukke"},
+{"requestId": 1, "textTranslated": "Hestene er dejlige"},
+{"requestId": 2, "textTranslated": "Tak for mad"},
+{"requestId": 3, "textTranslated": "En to tre"},
+{"requestId": 4, "textTranslated": "Bomuldsvat"},
+{"requestId": 4, "textTranslated": "Bomuldskvat"},
+{"requestId": 4, "textTranslated": "Hestevat"},
+{"requestId": 4, "textTranslated": "Bomuldshat"},
+{"requestId": 4, "textTranslated": "Blomkålsvat"},
+{"requestId": 5, "textTranslated": "Stop"},
+{"requestId": 6, "textTranslated": "Poutine (pommes frites med brun sovs og ostestykker)"},
+{"requestId": 7, "textTranslated": "Farvel og tak for alle fiskene"},
+{"requestId": 8, "textTranslated": "når man går udenfor ofte for at undersøge om der kommer nogen"},
+{"requestId": 9, "textTranslated": "Frygten for at tiden er ved at rinde ud (så man ikke når et livsmål eller en mulighed)"},
+{"requestId": 10, "textTranslated": "Det akavede øjeblik hvor man et kort sekund har glemt navnet på den anden man snakker med/om},
+{"requestId": 11, "textTranslated":  	"En nostalgisk trang til at genopleve en oplevelse eller møde en person man kendte engang"},
+{"requestId": 12, "textTranslated": "Bring denne gamle whisky til den blonde dommer som ryger"},
+{"requestId": 14, "textTranslated": "Les chevaux sont beaux"}
+```
