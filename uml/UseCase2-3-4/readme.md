@@ -23,6 +23,10 @@
 - [Post / delete] api/users/{userId}/language
 
   Endpoint: register the languages of the "extended user".
+  
+- [Post] api/users/login
+  
+  Endpoint for login - returns a jwt-token
 
 ### closing requests
 - [Patch] api/requests/{id}/close
