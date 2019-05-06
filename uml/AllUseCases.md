@@ -20,3 +20,8 @@
 | B | Relateret til en bruger der besvarer en anmodning |
 | C | Relateret til systemet |
 | AB | Relateret til både brugertype A og B |
+
+# uden prioritering
+| UC Code | UC titel | Beskrivelse |
+|---|---|---|
+| A6 | Vis bedste svar | Systemet viser "Turisten" det bedst egnede svar (hvis sådan et findes) direkte sammen med forespørgslen, uden brugeren skal bede om mere information til den pågældende forespørgsel |
