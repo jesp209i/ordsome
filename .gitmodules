@@ -10,3 +10,6 @@
 [submodule "ngOrdsome"]
 	path = Ordsome.ngOrdsome
 	url = https://github.com/jesp209i/ngOrdsome.git
+[submodule "ApiTestingAPP"]
+	path = ApiTestingAPP
+	url = https://github.com/larzraz/ApiTestingAPP.git
