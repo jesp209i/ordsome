@@ -296,20 +296,50 @@
 # requests uden id'er og uden svar
 ```JSON
 [
-{"languageOrigin":"Tysk","languageTarget":"Dansk","textToTranslate":"Die Pferde sind hübsch"},
-{"languageOrigin":"Engelsk","languageTarget":"Dansk","textToTranslate":"Thanks for dinner"},
-{"languageOrigin":"Finsk","languageTarget":"Dansk","textToTranslate":"Yksi kaksi kolme"},
-{"languageOrigin":"Finsk","languageTarget":"dansk (Danmark)","textToTranslate":"Pumpulivanua"},
-{"languageOrigin":"Canadisk fransk","languageTarget":"Dansk","textToTranslate":"Arret"},
-{"languageOrigin":"Canadisk fransk","languageTarget":"Dansk","textToTranslate":"Poutine"},
-{"languageOrigin":"Engelsk","languageTarget":"Dansk","textToTranslate":"So long and thanks for all the fish"},
-{"languageOrigin":"Inuit","languageTarget":"Dansk","textToTranslate":"Iktsuarpok"},
-{"languageOrigin":"Tysk","languageTarget":"Dansk","textToTranslate":"Torschlusspanik"},
-{"languageOrigin":"Skottisk","languageTarget":"Dansk","textToTranslate":"Tartle"},
-{"languageOrigin":"Portugisisk","languageTarget":"Dansk","textToTranslate":"Saudade"},
-{"languageOrigin":"Fransk","languageTarget":"Dansk","textToTranslate":"Portez ce vieux whisky au juge blond qui fume"},
-{"languageOrigin":"Dansk","languageTarget":"English (United States)","textToTranslate":"Kælehøne"},
-{"languageOrigin":"Tysk","languageTarget":"Fransk","textToTranslate":"Die Pferde sind hübsch"}
+{
+  "languageOriginId":51,
+  "languageTargetId":37,
+  "textToTranslate":"Die Pferde sind hübsch"
+},
+{
+  "languageOriginId":"Engelsk",
+  "languageTargetId":37,
+  "textToTranslate":"Thanks for dinner"
+},
+{
+  "languageOriginId":"Finsk",
+  "languageTargetId":37,
+  "textToTranslate":"Yksi kaksi kolme"
+},
+{"languageOriginId":46,"languageTargetId":37,"textToTranslate":"Pumpulivanua"},
+
+{"languageOriginId":40,"languageTargetId":37,"textToTranslate":"So long and thanks for all the fish"},
+
+{"languageOriginId":74,"languageTargetId":37,"textToTranslate":"Iktsuarpok"},
+
+{"languageOriginId":51,"languageTargetId":37,"textToTranslate":"Torschlusspanik"},
+
+{
+  "languageOriginId":141,
+  "languageTargetId":37,
+  "textToTranslate":"Tartle"
+}, {
+  "languageOriginId":128,
+  "languageTargetId":37,
+  "textToTranslate":"Saudade"
+}, {
+  "languageOriginId":47,
+  "languageTargetId":37,
+  "textToTranslate":"Portez ce vieux whisky au juge blond qui fume"
+}, {
+  "languageOriginId":37,
+  "languageTargetId":40,
+  "textToTranslate":"Kælehøne"
+}, {
+  "languageOriginId":51,
+  "languageTargetId":47,
+  "textToTranslate":"Die Pferde sind hübsch"
+}
 ]
 ```
 
@@ -326,8 +356,6 @@ Hvis ovenstående indsættes i en frisk database fra toppen og ned, kan man gør
 {"requestId": 4, "textTranslated": "Hestevat"},
 {"requestId": 4, "textTranslated": "Bomuldshat"},
 {"requestId": 4, "textTranslated": "Blomkålsvat"},
-{"requestId": 5, "textTranslated": "Stop"},
-{"requestId": 6, "textTranslated": "Poutine (pommes frites med brun sovs og ostestykker)"},
 {"requestId": 7, "textTranslated": "Farvel og tak for alle fiskene"},
 {"requestId": 8, "textTranslated": "når man går udenfor ofte for at undersøge om der kommer nogen"},
 {"requestId": 9, "textTranslated": "Frygten for at tiden er ved at rinde ud (så man ikke når et livsmål eller en mulighed)"},
